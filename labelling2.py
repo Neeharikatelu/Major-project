@@ -12,7 +12,7 @@ id_1 = 1
 
 # Base directory containing the CSV files
 base_directory = r"D:\Desktop\SEM 7\Mini Project\CSV_day_output"
- 
+
 # Output directory for labeled CSV files
 output_directory = r"D:\Desktop\SEM 7\Mini Project\labelling_2017"
 
