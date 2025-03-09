@@ -1,4 +1,4 @@
-# Mini-project
+# Major Project
 Leveraging a comprehensive dataset from X-Block ETH,
 this analysis explores the dynamics of token transfers and wallet relationships. 
 Traditional graph methods, while useful, often fail to capture complex interactions and temporal variations within the data. 
