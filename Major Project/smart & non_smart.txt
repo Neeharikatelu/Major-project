@@ -1,0 +1,6 @@
+# Smart and Non_smart Contract Nodes Data
+df_nonsmart_combined_unique.csv
+https://drive.google.com/file/d/1jlrtFkRwxtuyum5nAC7RuwK_MJOZspZ_/view?usp=sharing
+
+df_smart_combined_unique.csv
+https://drive.google.com/file/d/1VgxqT6KQljwTeWr_hXnL4hwtRJY2NN4k/view?usp=sharing
