@@ -96,8 +96,7 @@ Edit
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/ethereum-hypergraph-analysis.git
-cd ethereum-hypergraph-analysis
+git clone https://github.com/Neeharikatelu/Major-project.git
 
 ```
 ### 2. Install Requirements
