@@ -86,9 +86,6 @@ Thus, **hypergraph modeling** provides a better and deeper understanding of NFT 
 ## 📂 Folder Structure
 /data ├── Daywise transaction files ├── Hypergraph JSON files /scripts ├── Data preprocessing scripts ├── Hypergraph construction scripts ├── Analysis and visualization scripts /results ├── Graphs, plots, community detection results
 
-yaml
-Copy
-Edit
 
 ---
 
