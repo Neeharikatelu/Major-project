@@ -45,6 +45,15 @@ Thus, **hypergraph modeling** provides a better and deeper understanding of NFT 
 - Labeled Ethereum addresses for easy tracking.
 - Structured data to fit hypergraph construction format.
 
+- **Timestamp Conversion:**  
+  Implemented in `timestamp.ipynb`, this notebook converts Unix timestamps in the transaction data to a human-readable `yy-mm-dd` format.
+
+- **Daywise Splitting:**  
+  The `datewisesplit.ipynb` script splits the entire dataset into separate files for each day to facilitate daily hypergraph construction.
+
+- **Address Labelling:**  
+  In `labelling.ipynb`, Ethereum addresses are labeled to distinguish between smart contracts and externally owned accounts (EOAs).
+
 ---
 
 ## 🔗 Hypergraph Construction
@@ -53,7 +62,9 @@ Thus, **hypergraph modeling** provides a better and deeper understanding of NFT 
 - For each day:
   - Hypergraphs were created connecting wallets participating in token transfers.
 - Stored hypergraphs in **JSON** format for efficient analysis.
-
+  
+- **Hypergraph Construction Preparation:**  
+  `hypergraph_try.ipynb` processes the cleaned and labeled data to structure it in a format suitable for hypergraph modeling, treating each token as a hyperedge and wallets as nodes.
 ---
 
 ## 📈 Analytical Steps
@@ -84,8 +95,37 @@ Thus, **hypergraph modeling** provides a better and deeper understanding of NFT 
 ---
 
 ## 📂 Folder Structure
-/data ├── Daywise transaction files ├── Hypergraph JSON files /scripts ├── Data preprocessing scripts ├── Hypergraph construction scripts ├── Analysis and visualization scripts /results ├── Graphs, plots, community detection results
-
+├── Codes/
+│ ├── timestamp.ipynb
+│ ├── datewisesplit.ipynb
+│ ├── labelling.ipynb
+│ ├── hypergraph_try.ipynb
+│ ├── blocknumber.ipynb
+│ ├── csv_day_major.ipynb
+│ ├── datewise_split.py
+│ ├── degree_chnages.ipynb
+│ ├── s_adjacency.ipynb
+│ ├── s_components.ipynb
+│ ├── ...
+├── Plots_hyperedges_temporal/
+├── hyperedges_by_size/
+├── hyperedges_occurrences_by_size/
+├── hypergraph_everyday_Null_clean/
+├── null_clean_plots/
+├── repeated_hyperedges_by_size/
+├── smart_filtered_hyperedges_by_size/
+├── temporal_distance_plots/
+├── temporal_distance_plots_log_x/
+├── temporal_distance_plots_log_x_y/
+├── temporal_distance_plots_log_y/
+├── temporal_distances_by_size/
+├── results/
+│ ├── *.png
+│ ├── *.csv
+├── 3_hyperedges_occurrences.csv
+├── Hypergraph_Report.pdf
+├── Major_Neeharika_final_report.pdf
+├── README.md
 
 ---
 
